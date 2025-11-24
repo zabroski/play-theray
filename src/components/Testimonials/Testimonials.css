@@ -1,0 +1,10 @@
+/* src/components/Testimonials/Testimonials.css */
+.test-grid {
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:16px;
+  margin-top:18px;
+}
+@media(min-width:720px){
+  .test-grid { grid-template-columns: 1fr 1fr; }
+}
